@@ -1,0 +1,17 @@
+composer:
+  last: Kolberer
+  first: Cajetan
+title: Miserere
+genre: psalm
+scoring: S, A, T, B (solo), S, A, T, B (coro), 2 vl, vla, b, org
+license: cc-by-sa-4.0
+sources:
+  B1:
+    siglum: D-Dl
+    shelfmark: Mus.2251-E-1
+    date: 1730–1740
+    rism: 212006780
+    url: https://digital.slub-dresden.de/id426604695
+    license: public domain
+    principal: true
+imslp:
