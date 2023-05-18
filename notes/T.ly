@@ -108,11 +108,11 @@ MiserereTenore = {
     d d c c c8. c16 c8 d
     e4 f cis d8 f
     g8.([ e16)] d4 e2
-    d4 \tempoTuncImponent d8 cis d cis a a %145
+    d4 \tempoTuncImponent d8\pE cis d cis a\fE a %145
     a a r4 r f'8\fE c
     f e f e d e d e16 f
     e4 e8 e d g e f
-    \tempoVitulos e4 e d2 \noBreak
+    \tempoVitulos e4 e \tempoVitulosB d2 \noBreak
     R1\fermata \bar "||" %150
     \time 3/2 \tempoGloria \newSpacingSection
       \mvTr f,2.\pE^\soloE f4 f2 \noBreak
@@ -139,14 +139,14 @@ MiserereTenore = {
     e2. e4 f2
     d2. d4 e2
     f f( e)
-    f d a %175
+    f c^\critnote a %175
     a2. e'4 e2
     f,2. g4 a2
     b \once \tieDashed a~ a \noBreak
     a1.\fermata \bar "||"
     \time 4/4 \tempoAmen \newSpacingSection b2 a \noBreak %180
     r f'
-    g2. fis8[ e]
+    g2. f8[ e]
     \tempoAmenB d1
     d\fermata \bar "|." %184 finis
   }

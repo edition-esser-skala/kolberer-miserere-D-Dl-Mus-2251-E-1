@@ -3,39 +3,30 @@
 #(define option-movement-title-format "title")
 #(define option-print-all-bar-numbers #t)
 \include "ees.ly"
-\include "ees_articulate.ly"
 
 
 rip = \markup \remark "Rip."
+passai = #(make-dynamic-script
+  (markup #:line (
+    #:normal-text #:large #:bold "p"
+    #:normal-text #:small "assai")))
 
 
-tempoMiserere = \tempoMarkup "Andante"
-tempoIudicaris = \tempoMarkup "Adagio"
-tempoEcce = \tempoMarkup "Andante"
-tempoAsperges = \tempoMarkup "Largo"
-tempoAuditui = \tempoMarkup "Vivace"
-tempoAverte = \tempoMarkup "[Larghetto]"
-tempoLibera = \tempoMarkup "[Andante]"
-tempoTuncAcceptabis = \tempoMarkup "Largo"
-tempoTuncImponent = \tempoMarkup "Vivace"
-tempoVitulos = \tempoMarkup "Adagio"
-tempoGloria = \tempoMarkup "Andante"
-tempoSicut = \tempoMarkup "Allegro"
-tempoAmen = \tempoMarkup "Largo"
-tempoAmenB = \tempoMarkup "Adagio"
-% tempoIudicaris = \tempo 4 = 50
-% tempoEcce = \tempo 4 = 70
-% tempoAsperges = \tempo 4 = 50
-% tempoAuditui = \tempo 4 = 100
-% tempoAverte = \tempo 2 = 125
-% tempoLibera = \tempo 4 = 70
-% tempoTuncAcceptabis = \tempo 4 = 50
-% tempoTuncImponent = \tempo 4 = 100
-% tempoVitulos = \tempo 4 = 50
-% tempoGloria = \tempo 2 = 100
-% tempoSicut = \tempo 2 = 150
-% tempoAmen = \tempo 4 = 50
-% tempoAmenB = \tempo 4 = 40
+tempoMiserere = \tempoMarkup "Andante"     % 4 = 70
+tempoIudicaris = \tempoMarkup "Adagio"     % 4 = 50
+tempoEcce = \tempoMarkup "Andante"         % 4 = 70
+tempoAsperges = \tempoMarkup "Largo"       % 4 = 50
+tempoAuditui = \tempoMarkup "Vivace"       % 4 = 100
+tempoAverte = \tempoMarkup "[Larghetto]"   % 2 = 125
+tempoLibera = \tempoMarkup "[Andante]"     % 4 = 70
+tempoTuncAcceptabis = \tempoMarkup "Largo" % 4 = 50
+tempoTuncImponent = \tempoMarkup "Vivace"  % 4 = 100
+tempoVitulos = \tempoMarkup "Adagio"       % 4 = 50
+tempoVitulosB = \tempoMarkup "[Vivace]"    % 4 = 100
+tempoGloria = \tempoMarkup "Andante"       % 2 = 100
+tempoSicut = \tempoMarkup "Allegro"        % 2 = 150
+tempoAmen = \tempoMarkup "Largo"           % 4 = 50
+tempoAmenB = \tempoMarkup "Adagio"         % 4 = 40
 
 
 \include "notes/ob1.ly"

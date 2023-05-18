@@ -25,7 +25,7 @@ MiserereBasso = {
     r4 \mvTr a'8\pE^\soloE h c c c gis %40
     a e f4. e16([ f)] d4
     c8 c e16 e c c g' g g g g8 e16 e
-    a8 a a16 a g8 f d e([ d16 e)]
+    a8 a a16 a g!8 f d e([ d16 e)]
     a,4 \tempoAsperges r r2
     R1*4 %48
     \after 2 \tempoAuditui R1
@@ -49,7 +49,7 @@ MiserereBasso = {
     g a4. a8 a,2
     d d'( c!) %90
     b( a g)
-    f4 f c1
+    f!4 f c1
     f f2
     cis2. h4 cis( a)
     d2 e f %95
@@ -81,11 +81,11 @@ MiserereBasso = {
     g g e e f8. f16 f8 f
     e4 d a' f8 d
     g([ a)] b4 a( a,)
-    d \tempoTuncImponent r r d8 cis %145
+    d \tempoTuncImponent r r d8\fE cis %145
     d a r4 r f'8\fE e
     f c d e f e f e16 d
     a'4 a8 a b g a d,
-    \tempoVitulos a'4 a, d2 \noBreak
+    \tempoVitulos a'4 a, \tempoVitulosB d2 \noBreak
     R1\fermata \bar "||" %150
     \time 3/2 \tempoGloria \newSpacingSection R1.*11 %161
     r2 \tempoSicut \mvTr f\fE^\tuttiE f
@@ -104,7 +104,7 @@ MiserereBasso = {
     d1.\fermata \bar "||"
     \time 4/4 \tempoAmen \newSpacingSection g2( fis4) f \noBreak %180
     cis2 d
-    e f4 fis
+    e f4.^\critnote fis8
     \tempoAmenB g1
     d\fermata \bar "|." %184 finis
   }

@@ -12,7 +12,7 @@ MiserereAlto = {
     R1*17 %22
     r4 \mvTr a8\fE^\tuttiE a a4 a8 a
     a a16 a a8 g f8. f16 f4
-    r8 g g f e e e4 %25
+    r8 g g f e8. e16 e4 %25
     f8 e f4 f( e)
     f f8 f g4. g8
     a a f g g4 e8 f
@@ -70,7 +70,7 @@ MiserereAlto = {
     \time 4/4 \tempoLibera \newSpacingSection R1*10 %130
     r2 r8 \mvTr a'16\pE^\soloE a a8 a16 gis
     a([ e)] e8 g8. h16 a([ h)] a([ g)] g8 fis16([ g)]
-    e8 e e f16([ g)] g([ d)] d8 d16 f e d
+    e8 e e f16([ g)] g([ d!)] d8 d16 f e d
     e8 c g' g gis a a8. gis16
     a8 r r4 r2 %135
     R1*4
@@ -79,11 +79,11 @@ MiserereAlto = {
     a8. g16 g8 g g8. f16 f8 f
     g4 a a a8 a
     b([ a16 g] f8) g a4.( g8)
-    f4 \tempoTuncImponent f8 e f e f e %145
+    f4 \tempoTuncImponent f8\pE e f e f\fE e %145
     d cis f\p e f c a'\fE g
     a g f g a g a a16 a
     a4 g8 g f b a a
-    \tempoVitulos a4 a a2 \noBreak
+    \tempoVitulos a4 a \tempoVitulosB a2 \noBreak
     R1\fermata \bar "||" %150
     \time 3/2 \tempoGloria \newSpacingSection
       \mvTr f4\pE^\soloE e f g f g \noBreak

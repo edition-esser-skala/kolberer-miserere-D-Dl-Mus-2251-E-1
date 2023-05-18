@@ -6,7 +6,7 @@
 \book {
   \bookpart {
     \section "Miserere"
-    % \addTocEntry
+    \addTocEntry
     \paper { indent = 3\cm }
     \score { %\articulate
       <<

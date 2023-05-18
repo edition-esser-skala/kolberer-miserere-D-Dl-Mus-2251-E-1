@@ -74,14 +74,14 @@ MiserereSoprano = {
     c8. b16 b8 b b8. a16 a8 h
     cis4 d e f8 d
     d([ cis)] d4 d( cis)
-    d \tempoTuncImponent a8 a a a a e' %145
+    d \tempoTuncImponent a8\pE a a a a\fE e' %145
     f e a,\p g a g c\f c
     c c a cis d cis d d16 d
     cis4 cis8 cis d d cis d
-    \tempoVitulos d4 cis d2 \noBreak
+    \tempoVitulos d4 cis \tempoVitulosB d2 \noBreak
     R1\fermata \bar "||" %150
     \time 3/2 \tempoGloria \newSpacingSection
-       \mvTr a4\pE^\soloE g a b a b \noBreak
+      \mvTr a4\pE^\soloE g a b a b \noBreak
     g2. g4 g2
     a4 g a b a b
     g2. g4 g2
@@ -103,9 +103,9 @@ MiserereSoprano = {
     c( b1) %170
     a2 \mvTr c\fE^\tuttiE c
     c2. c4 c2
-    b2. c4 c2
+    b2. b4^\critnote c2
     c c1
-    c2 d d %175
+    c2 c d %175
     e2. e4 e2
     d2. cis4 d2
     d d( cis) \noBreak
