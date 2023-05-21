@@ -1,7 +1,7 @@
 composer:
   last: Kolberer
   first: Cajetan
-title: Miserere
+title: Miserere in D minor
 genre: psalm
 scoring: S, A, T, B (solo), S, A, T, B (coro), 2 ob, 2 vl, vla, b, org
 license: cc-by-sa-4.0
@@ -14,4 +14,4 @@ sources:
     url: https://digital.slub-dresden.de/id426604695
     license: public domain
     principal: true
-imslp:
+imslp: Miserere_in_D_minor_(Kolberer,_Cajetan)
